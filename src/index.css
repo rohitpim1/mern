@@ -1,5 +1,22 @@
-*{
+*,
+*::before,
+*::after{
   margin:0;
   padding:0;
   box-sizing:border-box;
+}
+
+:root{
+  --button-blue:#3F3D56;
+  --main-blue:#505F98;
+  --heading:#2F2E41;
+}
+
+body{
+  font-family:'Roboto',sans-serif;
+  font-style:normal;
+}
+
+.wrapper{
+  padding:0 165px;
 }
