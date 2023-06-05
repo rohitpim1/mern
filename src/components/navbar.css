@@ -1,4 +1,5 @@
 .navbar{
+    position: relative;
     height:60px;
     display: flex;
     justify-content: space-between;
@@ -27,4 +28,97 @@
 
 .navbar .navList li:hover{
     background-color: aliceblue;
+}
+
+.navbar .navbtn{
+    display:block;
+}
+
+.menu-icon{
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.menu-icon:hover{
+background-color:aliceblue;
+}
+
+
+.mobileList{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color:aliceblue;
+    top: 80px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition:opacity 2s ease ;
+    -webkit-transition:opacity 2s ease ;
+    -moz-transition:opacity 2s ease ;
+    -ms-transition:opacity 2s ease ;
+    -o-transition:opacity 2s ease ;
+}
+
+.mobileList.active{
+    opacity: 1;
+}
+
+.mobileList li{
+    list-style: none;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    color: var(--main-blue);
+   
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.mobileList li:hover{
+background-color: var(--main-blue);
+color: #fff;
+cursor: pointer;
+}
+
+/*1024*/
+
+/*tablet*/
+@media screen and (max-width:768px) {
+    .navbar .navList{
+        display: none;
+    }
+    .navbar .navbtn{
+        display:none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    
+}
+
+/*mobile*/
+@media screen and (max-width:425px) {
+
+    .mobileList li{
+        font-size:18px;
+        padding: 7px 0;
+       
+    }
 }
