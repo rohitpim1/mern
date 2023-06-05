@@ -1,12 +1,18 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Hero from './sections/Hero/Hero';
+import Article from './sections/article/Article';
+import Footer from './sections/footer/Footer';
+import Service from './sections/service/Service';
 
 
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
-    </div>
+    <>
+   <Hero/>
+   <Service/>
+   <Article/>
+   <Footer/>
+    </>
   );
 }
 
