@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './Logo'
 import './navbar.css'
+import NavButton from './NavButton'
 
 const Navbar = () =>{
     return(
@@ -11,6 +12,7 @@ const Navbar = () =>{
           <li>Contact</li>
          </ul>
          <Logo/>
+         <NavButton/>
         </nav>
     )
 }
