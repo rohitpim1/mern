@@ -20,3 +20,33 @@ body{
 .wrapper{
   padding:0 165px;
 }
+
+/*1024*/
+@media screen and (max-width:1024px) {
+  .wrapper{
+    padding: 0 110px;
+  }
+  
+}
+/*tablet*/
+
+@media screen and (max-width:768px){
+  .wrapper{
+    padding: 0 100px;
+  }
+}
+
+/*mobile*/
+
+@media  screen and (max-width:425px) {
+  .wrapper{
+    padding: 0 50px;
+  }
+}
+
+/*medium mobile*/
+@media  screen and (max-width:375px) {
+  .wrapper{
+    padding: 0 30px;
+  }
+}

@@ -8,3 +8,37 @@
     font-size: 30px;
     color:red;
 }
+
+
+/*1024*/
+@media screen and (max-width:1024px) {
+    .logo{
+        font-size: 24px;
+    }
+
+    .logo span{
+        font-size: 28px;
+    }
+    
+  }
+/*tablet*/
+@media screen and (max-width:768px) {
+    .logo{
+        font-size: 22px;
+    }
+
+    .logo span{
+        font-size: 28px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width:425px) {
+    .logo{
+        font-size: 18px;
+    }
+
+    .logo span{
+        font-size: 20px;
+    }
+}
