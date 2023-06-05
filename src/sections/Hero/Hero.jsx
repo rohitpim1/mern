@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Navbar from '../../components/Navbar'
 const Hero = () =>{
     return(
-        <>Hero</>
+        <section className="hero">
+            <Navbar/>
+        </section>
     )
 }
 
