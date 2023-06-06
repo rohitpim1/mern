@@ -1,0 +1,93 @@
+.hero {
+  position: relative;
+  height: 700px;
+  background: url("../../assests/Path.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 65% 100%;
+}
+
+.hero .hero-img {
+  position: absolute;
+  height: 500px;
+  left: 945px;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.hero .hero-img img {
+  height: 500px;
+}
+
+.hero .hero-content {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  top: 110px;
+  left: 200px;
+}
+
+.hero .hero-content h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  color: var(--heading);
+}
+
+.hero .hero-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--main-blue);
+}
+
+.hero .hero-content .hero-btn {
+  margin-top: 50px;
+  display: flex;
+}
+
+.hero .hero-content .hero-btn .btn button {
+  width: 189px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /*identicaltoboxheight,or162%*/padding: 1px 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.hero .hero-content .hero-btn .btn1 button {
+  background-color: var(--button-blue);
+  color: #fff;
+  margin-right: 30px;
+  border: none;
+  outline: none;
+}
+
+.hero .hero-content .hero-btn .btn2 button {
+ background-color: #fff;
+ color: var(--button-blue);
+ outline: none;
+ border: 1px solid var(--button-blue);
+ transition:all .5s ease ;
+ -webkit-transition:all .5s ease ;
+ -moz-transition:all .5s ease ;
+ -ms-transition:all .5s ease ;
+ -o-transition:all .5s ease ;
+}
+
+.hero .hero-content .hero-btn .btn2 button:hover{
+border: none;
+background-color: var(--button-blue);
+color: #fff;
+}
