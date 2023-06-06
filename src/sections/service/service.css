@@ -1,0 +1,42 @@
+.service .content {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+.service .content .sub-content1 {
+  flex: 1;
+  margin-top: 80px;
+}
+
+.service .content .sub-content2 {
+  flex: 1;
+}
+
+.service .content .sub-content1 h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--heading);
+  padding-bottom: 16px;
+}
+
+.service .content .sub-content1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--main-blue);
+}
+
+.service .content .sub-content1 .cont-parts{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service .content .sub-content1 .cont-parts .part1 h4{
+    padding-bottom: 10px;
+}
