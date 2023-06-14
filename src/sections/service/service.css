@@ -59,3 +59,13 @@
     height:400px;
   }
 }
+
+
+/*mobile*/
+
+@media screen and (max-width:425px){
+.service .content .sub-content1 .cont-parts{
+flex-direction: column;
+gap:30px;
+}
+}
