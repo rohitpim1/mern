@@ -70,3 +70,13 @@
     color:#fff;
     background-color: var(--button-blue);
 }
+
+
+
+/*mobile*/
+@media screen and (max-width:425px){
+  .subArticle .article h3{
+    font-size:25px;
+    font-weight: 600;
+  }
+}
