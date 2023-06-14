@@ -32,3 +32,16 @@
   line-height: 26px;
   color: var(--main-blue);
 }
+
+
+/*mobile design*/
+
+@media screen and (max-width:768px){
+  .article .articles .sub-articles{
+    flex-direction: column;
+  }
+
+  .article .articles .sub-articles h3{
+    text-align: center;
+  }
+}
