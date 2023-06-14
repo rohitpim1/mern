@@ -1,8 +1,9 @@
 footer {
-  height: 216px;
+  height: auto;
   background-color: #e7ecff;
   opacity: 0.8;
   padding-top: 30px;
+  padding-bottom:30px;
 }
 
 footer .foot {
@@ -50,4 +51,20 @@ footer .foot .foot2 .content2 .icon {
 
 footer .foot .foot2 .content2 .icon:nth-child(-n + 4) {
   margin-right: 40px;
+}
+
+/*mobile*/
+
+
+@media screen and (max-width:425px){
+  footer .foot .foot1{
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  footer .foot .foot2{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
 }
