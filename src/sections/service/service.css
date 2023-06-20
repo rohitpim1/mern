@@ -68,4 +68,8 @@
 flex-direction: column;
 gap:30px;
 }
+.service .content .sub-content2 img{
+  width:300px;
+  height:300px;
+}
 }

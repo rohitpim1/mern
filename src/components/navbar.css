@@ -61,7 +61,8 @@ background-color:aliceblue;
     text-align: center;
     width: 100%;
     height: auto;
-    background-color:aliceblue;
+    z-index: 9999;
+    background-color:var(--main-blue);
     top: 80px;
     left: 0;
     right: 0;
@@ -82,7 +83,7 @@ background-color:aliceblue;
     font-size: 22px;
     margin-bottom: 20px;
     padding: 15px 0;
-    color: var(--main-blue);
+    color: #fff;
    
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
