@@ -91,3 +91,116 @@ border: none;
 background-color: var(--button-blue);
 color: #fff;
 }
+
+
+/*1024*/
+@media screen and (max-width:1024px) {
+  
+  .hero .hero-img{
+    left:610px;
+
+  }
+  .hero .hero-content{
+    left:110px;
+  }
+  
+}
+/*tablet*/
+
+@media screen and (max-width:768px){
+  .hero{
+     height: 500px;
+  }
+  .hero .hero-content{
+    width: 300px;
+  }
+
+  .hero .hero-content h1{
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .hero .hero-content p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .hero .hero-img{
+    left:500px;
+
+  }
+  .hero .hero-img img {
+    height: 350px;
+}
+
+.hero .hero-content .hero-btn{
+  margin-top: 30px;
+}
+.hero .hero-content .hero-btn .btn button{
+  width: 150px;
+}
+}
+
+/*mobile*/
+
+@media  screen and (max-width:425px) {
+  .hero .hero-img{
+  display: none;
+  }
+
+  .hero .hero-content{
+    left: 20px;
+  }
+}
+
+/*medium mobile*/
+@media  screen and (max-width:375px) {
+  .wrapper{
+    padding: 0 30px;
+  }
+ 
+
+  .hero .hero-content h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .hero .hero-content p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+ 
+
+.hero .hero-content .hero-btn{
+  margin-top: 30px;
+}
+.hero .hero-content .hero-btn .btn button{
+  width: 120px;
+}
+}
+
+@media  screen and (max-width:320px) {
+  .wrapper{
+    padding: 0 30px;
+  }
+ 
+
+  .hero .hero-content h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .hero .hero-content p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+ 
+
+.hero .hero-content .hero-btn{
+  margin-top: 30px;
+}
+.hero .hero-content .hero-btn .btn button{
+  width: 120px;
+}
+}
